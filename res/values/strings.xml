@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iCNTV</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+
+    <string name="frame_title_news_lastest">最新资讯</string>
+    <string name="frame_title_news_blog">最新博客</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+
+    <string name="news_detail_head_title">新闻正文</string>
+    <string name="news_detail_lable_pub">发布于</string>
+</resources>

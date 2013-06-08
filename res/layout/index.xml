@@ -1,0 +1,27 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+            android:id="@+id/index_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/index_header"/>
+
+    <tv.icntv.app.widget.ScrollLayout
+            android:id="@+id/index_scrolllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+        <include layout="@layout/frame_news" />
+    </tv.icntv.app.widget.ScrollLayout>
+
+    <include
+            android:id="@+id/index_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/index_footer"/>
+</LinearLayout>
